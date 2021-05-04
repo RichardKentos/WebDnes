@@ -1,0 +1,129 @@
+/* =======================
+	INDEX.PHP
+	====================== */	
+
+
+/* INTRO - rýchly, moderný... */
+header {
+	display: flex;
+	background-color: transparent;
+	background-image: url("images/background.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	margin-bottom: 10%;
+	box-shadow: 2px 2px 20px white;
+		}
+
+header h1:first-of-type {
+	font-family: 'Poiret One', cursive;
+	font-size: 5.5rem;
+	padding-right: 5%;
+	letter-spacing: 0.15rem;
+	opacity: 1;
+	font-weight: bold;
+	color: white;
+	line-height: 150%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+		}
+
+
+
+.ponuka-link {
+	width: 100%;
+	margin-bottom: 5%;
+		}
+
+.ponuka-link a{
+	display: block;
+	padding: .4% 0% .4%;
+	width: 10%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.4em;
+	color: white;
+	border-radius: 15px;
+	background: linear-gradient(145deg, #04ad9c, #049283);
+	box-shadow:  5px 5px 3px #026158, 
+             -5px -5px 3px #06e3cc;
+}
+
+.ponuka-link a:hover {
+	background: #04a292;
+box-shadow: inset 5px 5px 3px #026158, 
+            inset -5px -5px 3px #06e3cc;
+}
+
+/* Všeobecné pravidlá pre všetky 3 div v index */
+.corona-div,
+.rush-div,
+.music-div {
+	margin: 10%;
+	width: 100%;
+	color: rgb(37, 37, 37);
+	font-size: 1.3rem;
+}
+
+.corona-text,
+.rush-text,
+.music-text {
+	width: 40%;
+	font-size: 1.5rem;
+	line-height: 2.6rem;
+	background-color:#04a292 ;
+}
+.corona-text h3,
+.rush-text h3,
+.music-text h3 {
+	font-family: "Oswald";
+	font-size: 4rem;
+	letter-spacing: 0.25rem;
+	line-height: 4.6rem;
+	color: white;
+	margin-bottom: 10%;
+	background-color:#04a292 ;
+}
+
+
+/* Corona situácia */
+
+.corona-text {
+	width: 50%;
+	float: right;
+}
+
+.covid {
+	width: 30%;
+}
+/* Obrázok RUSH */
+.rush-div {
+	text-align: left;
+}
+
+.rush-text {
+	float: left;
+}
+
+.rush-div .rush {
+	width: 40%;
+	margin-top: 5vh;
+	float: right;
+}
+
+/* Obrázok s gitarou */
+.music-div {
+	margin-bottom: 10%;
+}
+
+.music-text {
+	float: right;
+}
+
+.music-div .music {
+	width: 40%;
+	margin-top: 5vh;
+}

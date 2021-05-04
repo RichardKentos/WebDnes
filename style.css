@@ -1,0 +1,712 @@
+/* ===============
+	GENERAL RULES
+	============== */
+
+/* colors 
+	main zelena - #04a292
+	tmavo zelena - #047b6e
+	*/
+
+@font-face {
+	font-family: 'Metropolis Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Metropolis Regular'), url('Metropolis-Regular.woff') format('woff');
+	}
+
+
+
+* {	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; }
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {	
+	margin:0;
+	font-family: 'Poiret One', cursive;
+	font-family: "Oswald";
+	color:white;
+	width: 100%;
+	background:#04a292;
+	}
+
+a {
+	text-decoration: none;
+}
+
+content {
+	clear: both;
+}
+
+::-moz-selection { 
+	/* Code for Firefox */
+	color: black;
+	background: white;
+}
+
+::selection {
+	color: black;
+	background-color: white;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 0.3em;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 2px;
+	background-color: #04a292;
+
+}
+
+::-webkit-scrollbar-thumb {
+	background:  white;
+	border-radius: 2px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(37, 37, 37);
+}
+
+
+/* WRAPPER */
+.wrapper {
+	padding-bottom: 0;
+	width: 100%;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+		}
+
+
+/* including BRANDING and INTRO(rýchly,moderný...) */
+
+.branding {
+	position: relative;
+	z-index: 5;
+	border-radius: 50%;
+	transition: 0.4s;
+	margin: 30%;
+			}
+.branding:hover {
+	cursor: pointer;
+	transform: scale(1.1,1.1);
+	transition: 0.4s;
+}
+
+.branding-link {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+/* MENU */
+.burger {
+	color: white;
+	font-size: 2.5rem;
+	position: fixed;
+	top: 15%;
+	z-index: 9;
+	right: 10%;
+	transition: 0.5s;
+		}
+
+
+.burger:hover{
+	cursor: pointer;
+	transition: 0.2s;
+	transform: scale(1.2);
+		}
+
+
+.menu_content {
+	background-image: linear-gradient(to left bottom, #04a292,#1b5c55);
+	border-left: 5px solid white;
+	margin-right: -40%;
+	width: 40%;
+	height: 100%;
+	padding-right: 2%;
+	position: fixed;
+	right:0;
+	top:0;
+	z-index: 10;
+		}
+
+
+.transform_menu {
+	-webkit-transition: all 0.7s ease;  
+	-moz-transition: all 0.7s  ease;  
+	-o-transition: all 0.7s ease;  
+	-ms-transition: all 0.7s  ease;  
+	transition: all 0.7s  ease;
+		}
+
+.menu_shown {
+	margin-right: 0%
+		}
+
+.arrow {
+	font-size: 3rem;
+	z-index: 11;
+	margin-right: -40%;
+	top: 50%;
+	position: absolute;
+	margin-left: 3%;
+	font-weight: bolder;
+	color: white;
+		}
+.arrow:hover {
+	cursor: pointer;
+		}
+
+menu a {
+	text-decoration: none;
+	color: white;
+		}	
+
+menu ul {
+	position: relative;
+		}
+
+menu li {
+	font-size: 2vw;
+	text-align: right;
+	float: right;
+	list-style-type: none;
+	padding-top: 10%;
+	width: 80%;
+	border-bottom: 3px solid white;
+	transition: padding-right 0.5s;
+	text-transform: uppercase;
+		}
+
+menu li:hover{
+	padding-right: 30%;
+	transition: 0.5s
+		}
+
+menu {
+	position: relative;
+	margin-left: 2%;
+	}	
+
+menu .menu_content a:first-of-type li:before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 1000;
+	content: "\f07a";
+	margin-right: 5%;
+}
+
+menu .menu_content a:nth-of-type(2) li:before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 1000;
+	content: "\f1c9";
+	margin-right: 5%;
+}
+
+menu .menu_content a:nth-of-type(3) li:before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 1000;
+	content: "\f095";
+	margin-right: 5%;
+}
+
+menu .menu_content a:last-of-type li:before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 1000;
+	content: "\f1ea";
+	margin-right: 5%;
+}
+
+
+
+/* FOOTER */
+footer {
+		/* box-shadow: 0px 0px 10px white; */
+		width: 100%;
+		background-color: rgb(37, 37, 37);
+		font-size: 1.3rem;
+		padding: 1%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+footer a {
+	color: rgb(150, 150, 150);
+}	
+footer a:hover {
+	color: white;
+	transition: .3s;
+}
+
+footer .footer-map {
+	display: block;
+	position: relative;
+	
+}
+footer .copyright {
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+footer .copyright a:first-of-type:after{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 1000;
+	content: "\f304";
+	margin-right: 5%;
+	color: white;
+}
+
+
+footer .social {
+	display: block;
+	position: relative;
+	text-align: center;
+}
+footer .social a:first-of-type {
+	color: white;
+	font-size: 3rem;
+}
+footer .social a:hover {
+	color: #3b5998;
+	transition: .3s;
+}
+
+#back_top {
+	color: white;
+	cursor: pointer;
+	display: none;
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	font-size: 3em;
+	z-index: 4;
+		}
+
+#back_top:hover {
+	text-shadow: 1px 1px 10px white;
+				}
+
+
+/* =======================
+	MOBILE VERSION
+	====================== */
+
+@media only screen and (max-width: 600px){
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	position: relative;
+	margin:0;
+	padding:0;
+	width: 100%	;
+}
+
+.wrapper {
+	padding: 0;
+	margin:0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.intro{
+	display: block;
+	position: relative;
+	background-color:transparent;
+	background-image: url("images/bgimg.png");
+	background-size: cover;
+	background-position:bottom center;
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0
+}
+
+.intro .intro-text p{
+	font-weight: bolder;
+	font-size: 3.5rem;
+	text-align:right;
+	line-height: 5rem;
+	color: rgb(37, 37, 37);
+	bottom: 20%;
+}
+
+.branding {
+	margin:35px;
+	width: 100px;
+	height: 100px;
+}
+
+/* MENU */
+
+.burger {
+	position: fixed;
+	top: 10%;
+	right: 10%;
+}
+.menu_content { 
+	width: 80%;
+	transform: translateX(50%);
+}
+
+.menu_content li{
+	font-size: 1.3rem;
+}
+
+.arrow {
+	transform: translateX(0%);
+}
+
+.menu_shown {
+	transform: translateX(0%);
+}
+
+
+.transform_menu {
+	-webkit-transition: all 0.2s;  
+	-moz-transition: all 0.2s; 
+	-o-transition: all 0.2s; 
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+/* No time */
+.corona-div,
+.rush-div,
+.guitar-div {
+	width: 100%;
+	margin:10%;
+	margin-top: 30%;
+}
+.corona-div h3,
+.rush-div h3,
+.guitar-div h3 {
+	font-size: 3rem;
+	font-weight: bolder;
+	margin-bottom: 5%;
+	line-height: 3.5rem;
+	text-transform: initial;
+} 
+.corona-text,
+.rush-text,
+.guitar-text {
+	width: 100%;
+	font-size: 1.3rem;
+	color: rgb(37, 37, 37);
+}
+
+.corona-div .covid {
+	width: 70%;
+	display: block;
+	margin: auto;
+	
+}
+.rush-div .rush-text {
+	margin-bottom: 10%;
+}
+
+.rush-div .rush{
+	width: 70%;
+	float: none;
+	display: block;
+	margin: auto;
+}
+
+/* Guitar */
+
+
+.guitar-text {
+	margin: auto;
+}
+
+.guitar-div h3 {
+	text-align: left;
+	line-height: 4rem
+}
+
+
+.guitar-div .guitar{
+	width: 70%;
+}
+
+.main-text{
+	margin-top: 10%;
+
+}
+
+.main-text a {
+	font-size: 1.5rem;
+	padding: 1%;
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+footer {
+	padding: 4%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+footer .footer-map{
+	position: relative;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+footer .copyright {
+	order:2;
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+footer .social {
+	order:1;
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+/* ========================
+		SLUŽBY.PHP
+	===================== */
+.s-intro {
+	font-size: 16px;
+	padding: 0 5%
+}
+
+.s-branding {
+	width: 100px;
+	height:100px;
+	margin:0;
+	position: absolute;
+	left: 30%;
+	top: 30%
+}
+
+.s-intro .sluzby-text{
+	position: relative;
+	width: 100%;
+	padding: 0 5%
+}
+
+.s-intro .sluzby-text p {
+	font-size: 1.2rem;
+}
+
+.s-intro .about-link {
+	color: white;
+}
+
+.people-div {
+	display: none;
+}
+.people-div p {
+	display: none;
+}
+
+.section h2 {
+	font-size: 2.5rem;
+	display:block;
+	position: relative;
+	margin: auto;
+	width: 90%;
+	letter-spacing: 0.2rem;
+	border: 4px solid white;
+	padding: 2% 2%;
+}
+
+.section .section-text {
+	width: 100%;
+	margin: auto;
+	
+}
+.section .section-text p {
+	font-size: 1.4rem;
+	padding: 2% 5%
+}
+
+.section .section-img{
+	width: 50%;
+	float: right;
+}
+#fullpage .section-text .cena p{
+	position: relative;
+	bottom: 0;
+	right: 0;
+}
+#fullpage .section .section-text .contact a{
+	position: relative;
+	bottom: 0;
+	right: 1;
+}
+
+/* ========================
+		KONTAKT.PHP
+	===================== */
+.k-wrapper {
+	display: flex;
+	width: 100%;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.contact-intro .contact-text {
+	width: 100%;
+}
+.contact-intro .contact-img {
+	width: 100%;
+}
+
+
+.k-wrapper .contact-form {
+	width:90%;
+	margin: auto;
+	box-shadow: 2px 2px 20px black;
+	color: rgb(37, 37, 37);
+}
+
+.k-wrapper .contact-form h2 {
+	color: black;
+}
+
+.call-div {
+	display: none;
+}
+
+.vizitka {
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-top: 10%;
+}
+
+.profile {
+	width: 90%;
+	margin-top: 10%;
+	padding:0;
+}
+.profile-photo {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding:0;
+	box-shadow: 0px 0px 10px rgb(39, 39, 39);
+}
+.profile p:first-of-type {
+	width: 90%;
+}
+
+.contact-map {
+	width: 100%;
+	margin-top: 10%
+}
+
+.contact-map h2 {
+	text-align: left;
+	margin-bottom: 10%
+}
+
+.contact-map p {
+	width: 100%;
+	text-align: left;
+	margin-bottom: 5%;
+	color: rgb(37, 37, 37);
+	font-size: 1.4rem;
+}
+
+.success-msg {
+	width: 90%;
+}
+
+
+.success-msg img {
+	width: 70%;
+	margin: auto;
+	display: block
+}
+
+/* ========================
+		ABOUT.PHP
+	===================== */
+.about {
+	width: 100%;
+}
+
+.about h2 {
+	margin-top: 10%;
+}
+
+.about p {
+	color: rgb(37, 37, 37);
+	margin-bottom: 10%;
+}
+
+.about img {
+	display: block;
+	margin: auto;
+	margin-bottom: 10%;
+	width: 90%;
+}
+
+.about img:nth-of-type(even) {
+	margin: auto;
+}
+
+
+}
+
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px)  { 
+
+.branding {
+	width: 130px;
+	height: 130px;
+}
+
+.intro .intro-text p {
+	font-size:4.5rem;
+}
+
+.rush-div h3{
+	line-height: 120%;
+	display:inline-block;
+	width: 100%;
+}
+
+.rush {
+	width: 25%;
+}
+
+.guitar-div h3{
+	line-height: 120%;
+}
+
+.guitar-div img {
+	width: 40%;
+	margin-top: 0;
+}
+
+/* ========================
+		SLUŽBY.PHP
+	===================== */
+
+}

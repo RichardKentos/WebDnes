@@ -1,0 +1,78 @@
+/* ===============
+	PRACE.PHP
+	============= */
+
+.portfolio h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+
+.portfolio {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio .site {
+    width: 40%;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio .site h3 {
+    font-size: 2rem;
+    margin-right: auto;
+}
+
+
+.portfolio .site img{
+    width: 100%;
+}
+
+.portfolio .site .button{
+    padding: 2%;
+    background-color: white;
+    color: rgb(49, 49, 49);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: .5s;
+    box-shadow: 2px 2px 10px black;
+}
+
+.portfolio .site .button:hover {
+    background-color: black;
+    color: rgb(235, 235, 235);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+/* Reviews from the customers */
+
+.review {
+    width: 100%;
+    display: block;
+    padding: 5%;
+}
+.review p {
+    font-size: 1.2rem;
+    color: rgb(37, 37, 37);;
+}
+    
+.review p:before {
+    content: url("images/user.svg");
+    display: inline-block;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    background-color: white;
+    border-radius: 50%;
+}	

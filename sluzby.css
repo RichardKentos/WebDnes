@@ -1,0 +1,162 @@
+/* =========================
+	 SLUŽBY DESIGN
+	======================= */
+    #fullpage {
+        position: relative;
+        padding: 0;
+    
+    }
+    .section {
+        position: relative;
+        width: 100%;
+        padding: 0 5% 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    .s-intro {
+        position: relative;
+        width: 100%;
+        padding: 0;
+        background-color:#04a292;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    header .branding{
+        margin-left: 30%;
+        margin-top: -10%;
+    }
+    
+    .sluzby-text {
+        width: 50%;
+        float: left;
+        padding: 0 0 0 10%;
+    }
+
+    .sluzby-text p {
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
+    
+    .people-div {
+        width: 40%;
+        align-self: center;
+        float: left;
+        margin-left: 10%;
+    }
+
+    
+    .people-div img {
+        width: 60%;
+    }
+    .s-intro .sluzby-text .about-link a{
+        color: white;
+        text-decoration: underline;
+    }
+    
+    
+    .section .section-img {
+        width: 40%;
+        float: left;
+        margin:2%;
+    }
+    
+    .section h2 {
+        display:block;
+        text-align: center;
+        font-size: 5vw;
+        letter-spacing: 0.6vw;
+        margin: auto;
+        position: relative;
+        top: 0;
+        color: black;
+        text-transform: uppercase;
+        border: 5px solid rgb(37, 37, 37);
+        width: 50%;
+        padding: 1% 0 1%;
+        background-color: rgb(255, 255, 255,0.5);
+    }
+    
+    .section-text {
+        width: 40%;
+        height: 50%;
+        float: right;
+        margin: 5%;
+        position: relative;
+    }
+    
+    .section p{
+        width: 100%;
+        font-size: 1.6vw;
+        line-height: 5vh;
+        color: rgb(37, 37, 37);
+        float: right;
+    }
+    
+    .section .section-text .cena {
+        color: white;
+        font-size: 3.5rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .offer-1 .contact,
+    .offer-2 .contact,
+    .offer-4 .contact
+     {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        box-shadow:  5px 5px 6px #004069, 
+        -5px -5px 6px #00acff;
+        padding: 2%;
+        border-radius: 25px;
+        background: linear-gradient(145deg, #007ed1, #006ab0);
+        color: white;
+    }
+    .offer-1 .contact:hover {
+        background: #0076c3;
+        box-shadow: inset 5px 5px 8px #004673, 
+                    inset -5px -5px 8px #00a6ff;
+    }
+    .offer-2 .contact{
+        background:linear-gradient(145deg, #9b4197, #83377f);
+        box-shadow: 5px 5px 6px #4e214c, 
+                 -5px -5px 6px #d459ce;
+    }
+    .offer-2 .contact:hover{
+        background: #913d8d;
+        box-shadow: inset 5px 5px 8px #562453, 
+                    inset -5px -5px 8px #cc56c7;
+    }
+    
+    .offer-4 .contact {
+        background: linear-gradient(145deg, #ccbc27, #ac9e20);
+        box-shadow: 5px 5px 8px #736a16, 
+                 -5px -5px 8px #fff632;
+        
+    }
+    .offer-4 .contact:hover {
+        background: #bfb024;
+        box-shadow: inset 5px 5px 8px #736a16, 
+                inset -5px -5px 8px #fff632;
+    }
+    
+    
+    .offer-1 {
+        background-color: #0076c3;
+    }
+    
+    .offer-2 {
+        background-color: #913d8d;
+    }
+    
+    .offer-4 {
+        background-color: #bfb024;
+    }
+    
