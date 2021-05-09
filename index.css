@@ -127,3 +127,91 @@ box-shadow: inset 5px 5px 3px #026158,
 	width: 40%;
 	margin-top: 5vh;
 }
+
+
+@media only screen and (max-width: 600px){
+	
+	header {
+		display: block;
+		position: relative;
+		background-color:transparent;
+		background-image: url("https://res.cloudinary.com/dsxnxbvpf/image/upload/v1620585783/WebDnes/bgimg_j5e6uk.jpg");
+		background-size: cover;
+		background-position:bottom center;
+		background-repeat: no-repeat;
+		margin:0;
+		padding:0
+	}
+		
+	header h1 {
+		font-weight: bolder;
+		font-size: 3.5rem;
+		text-align:right;
+		line-height: 5rem;
+		color: rgb(37, 37, 37);
+		bottom: 20%;
+	}
+
+	
+/* No time */
+.corona-div,
+.rush-div,
+.guitar-div {
+	width: 100%;
+	margin:10%;
+	margin-top: 30%;
+}
+.corona-div h3,
+.rush-div h3,
+.guitar-div h3 {
+	font-size: 3rem;
+	font-weight: bolder;
+	margin-bottom: 5%;
+	line-height: 3.5rem;
+	text-transform: initial;
+} 
+.corona-text,
+.rush-text,
+.guitar-text {
+	width: 100%;
+	font-size: 1.3rem;
+	color: rgb(37, 37, 37);
+}
+
+.corona-div .covid {
+	width: 70%;
+	display: block;
+	margin: auto;
+	
+}
+.rush-div .rush-text {
+	margin-bottom: 10%;
+}
+
+.rush-div .rush{
+	width: 70%;
+	float: none;
+	display: block;
+	margin: auto;
+}
+
+/* Guitar */
+
+
+.guitar-text {
+	margin: auto;
+}
+
+.guitar-div h3 {
+	text-align: left;
+	line-height: 4rem
+}
+
+
+.guitar-div .guitar{
+	width: 70%;
+}
+
+
+
+	}

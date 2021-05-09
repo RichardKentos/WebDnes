@@ -324,27 +324,6 @@ body {
 	
 }
 
-.intro{
-	display: block;
-	position: relative;
-	background-color:transparent;
-	background-image: url("images/bgimg.png");
-	background-size: cover;
-	background-position:bottom center;
-	background-repeat: no-repeat;
-	margin:0;
-	padding:0
-}
-
-.intro .intro-text p{
-	font-weight: bolder;
-	font-size: 3.5rem;
-	text-align:right;
-	line-height: 5rem;
-	color: rgb(37, 37, 37);
-	bottom: 20%;
-}
-
 .branding {
 	margin:35px;
 	width: 100px;
@@ -384,77 +363,6 @@ body {
 	transition: all 0.2s;
 }
 
-/* No time */
-.corona-div,
-.rush-div,
-.guitar-div {
-	width: 100%;
-	margin:10%;
-	margin-top: 30%;
-}
-.corona-div h3,
-.rush-div h3,
-.guitar-div h3 {
-	font-size: 3rem;
-	font-weight: bolder;
-	margin-bottom: 5%;
-	line-height: 3.5rem;
-	text-transform: initial;
-} 
-.corona-text,
-.rush-text,
-.guitar-text {
-	width: 100%;
-	font-size: 1.3rem;
-	color: rgb(37, 37, 37);
-}
-
-.corona-div .covid {
-	width: 70%;
-	display: block;
-	margin: auto;
-	
-}
-.rush-div .rush-text {
-	margin-bottom: 10%;
-}
-
-.rush-div .rush{
-	width: 70%;
-	float: none;
-	display: block;
-	margin: auto;
-}
-
-/* Guitar */
-
-
-.guitar-text {
-	margin: auto;
-}
-
-.guitar-div h3 {
-	text-align: left;
-	line-height: 4rem
-}
-
-
-.guitar-div .guitar{
-	width: 70%;
-}
-
-.main-text{
-	margin-top: 10%;
-
-}
-
-.main-text a {
-	font-size: 1.5rem;
-	padding: 1%;
-	width: 50%;
-	display: block;
-	margin: auto;
-}
 footer {
 	padding: 4%;
 	display: flex;
@@ -641,33 +549,6 @@ footer .social {
 	width: 70%;
 	margin: auto;
 	display: block
-}
-
-/* ========================
-		ABOUT.PHP
-	===================== */
-.about {
-	width: 100%;
-}
-
-.about h2 {
-	margin-top: 10%;
-}
-
-.about p {
-	color: rgb(37, 37, 37);
-	margin-bottom: 10%;
-}
-
-.about img {
-	display: block;
-	margin: auto;
-	margin-bottom: 10%;
-	width: 90%;
-}
-
-.about img:nth-of-type(even) {
-	margin: auto;
 }
 
 
