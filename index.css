@@ -175,6 +175,8 @@ box-shadow: inset 5px 5px 3px #026158,
 .guitar-text {
 	width: 100%;
 	font-size: 1.3rem;
+	margin: 0;
+	padding: 0;
 	color: rgb(37, 37, 37);
 }
 
@@ -196,18 +198,10 @@ box-shadow: inset 5px 5px 3px #026158,
 }
 
 /* Guitar */
-
-
-.guitar-text {
-	margin: auto;
-}
-
 .guitar-div h3 {
 	text-align: left;
 	line-height: 4rem
 }
-
-
 .guitar-div .guitar{
 	width: 70%;
 }

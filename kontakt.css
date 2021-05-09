@@ -300,3 +300,90 @@
         display: block
     }
     
+
+    @media only screen and (max-width: 600px){
+    
+.k-wrapper {
+	display: flex;
+	width: 100%;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.contact-intro .contact-text {
+	width: 100%;
+}
+.contact-intro .contact-img {
+	width: 100%;
+}
+
+
+.k-wrapper .contact-form {
+	width:90%;
+	margin: auto;
+	box-shadow: 2px 2px 20px black;
+	color: rgb(37, 37, 37);
+}
+
+.k-wrapper .contact-form h2 {
+	color: black;
+}
+
+.call-div {
+	display: none;
+}
+
+.vizitka {
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-top: 10%;
+}
+
+.profile {
+	width: 90%;
+	margin-top: 10%;
+	padding:0;
+}
+.profile-photo {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding:0;
+	box-shadow: 0px 0px 10px rgb(39, 39, 39);
+}
+.profile p:first-of-type {
+	width: 90%;
+}
+
+.contact-map {
+	width: 100%;
+	margin-top: 10%
+}
+
+.contact-map h2 {
+	text-align: left;
+	margin-bottom: 10%
+}
+
+.contact-map p {
+	width: 100%;
+	text-align: left;
+	margin-bottom: 5%;
+	color: rgb(37, 37, 37);
+	font-size: 1.4rem;
+}
+
+.success-msg {
+	width: 90%;
+}
+
+
+.success-msg img {
+	width: 70%;
+	margin: auto;
+	display: block
+}
+
+    }

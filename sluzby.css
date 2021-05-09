@@ -160,3 +160,78 @@
         background-color: #bfb024;
     }
     
+
+
+    @media only screen and (max-width: 600px){
+
+.s-intro {
+	font-size: 16px;
+	padding: 0 5%
+}
+
+.s-branding {
+	width: 100px;
+	height:100px;
+	margin:0;
+	position: absolute;
+	left: 30%;
+	top: 30%
+}
+
+.s-intro .sluzby-text{
+	position: relative;
+	width: 100%;
+	padding: 0 5%
+}
+
+.s-intro .sluzby-text p {
+	font-size: 1.2rem;
+}
+
+.s-intro .about-link {
+	color: white;
+}
+
+.people-div {
+	display: none;
+}
+.people-div p {
+	display: none;
+}
+
+.section h2 {
+	font-size: 2.5rem;
+	display:block;
+	position: relative;
+	margin: auto;
+	width: 90%;
+	letter-spacing: 0.2rem;
+	border: 4px solid white;
+	padding: 2% 2%;
+}
+
+.section .section-text {
+	width: 100%;
+	margin: auto;
+	
+}
+.section .section-text p {
+	font-size: 1.4rem;
+	padding: 2% 5%
+}
+
+.section .section-img{
+	width: 50%;
+	float: right;
+}
+#fullpage .section-text .cena p{
+	position: relative;
+	bottom: 0;
+	right: 0;
+}
+#fullpage .section .section-text .contact a{
+	position: relative;
+	bottom: 0;
+	right: 1;
+}
+}
