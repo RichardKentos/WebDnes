@@ -334,12 +334,12 @@ body {
 
 .burger {
 	position: fixed;
-	top: 0;
-	right: 0;
+	top: 10%;
+	right: 10%;
 }
 
 .menu_content { 
-	width: 100%;
+	width: 80%;
 	transform: translateX(50%);
 }
 
