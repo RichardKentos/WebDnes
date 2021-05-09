@@ -96,4 +96,8 @@
         justify-content: center;
     }
 
+    .portfolio .site img {
+        height: auto;
+    }
+
 }
