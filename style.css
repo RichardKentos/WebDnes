@@ -298,6 +298,27 @@ footer .social a:hover {
 				}
 
 
+
+/* 404 */
+.not-found {
+	font-size: 3rem;
+	width:100%;
+	text-align:center
+}
+
+.img-404 {
+	display:block; 
+	margin:auto; 
+	width:25%
+}
+
+.link-404 {
+	width:100%;
+	text-align:center; 
+	color:black
+}
+
+
 /* =======================
 	MOBILE VERSION
 	====================== */
@@ -390,6 +411,19 @@ footer .social {
 	position: relative;
 	width: 100%;
 	display: block;
+}
+
+.img-404 {
+	display:block; 
+	margin:auto; 
+	width: 90%
+}
+
+.link-404 {
+	width:100%;
+	text-align:center; 
+	color:black;
+	font-size: 1.5rem;
 }
 
 }

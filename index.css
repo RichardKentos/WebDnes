@@ -129,7 +129,7 @@ box-shadow: inset 5px 5px 3px #026158,
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
 	
 	header {
 		display: block;
@@ -156,14 +156,14 @@ box-shadow: inset 5px 5px 3px #026158,
 /* No time */
 .corona-div,
 .rush-div,
-.guitar-div {
+.music-div {
 	width: 100%;
 	margin:10%;
 	margin-top: 30%;
 }
 .corona-div h3,
 .rush-div h3,
-.guitar-div h3 {
+.music-div h3 {
 	font-size: 3rem;
 	font-weight: bolder;
 	margin-bottom: 5%;
@@ -172,7 +172,7 @@ box-shadow: inset 5px 5px 3px #026158,
 } 
 .corona-text,
 .rush-text,
-.guitar-text {
+.music-text {
 	width: 100%;
 	font-size: 1.3rem;
 	margin: 0;
@@ -198,14 +198,18 @@ box-shadow: inset 5px 5px 3px #026158,
 }
 
 /* Guitar */
-.guitar-div h3 {
+.music-div h3 {
 	text-align: left;
 	line-height: 4rem
 }
-.guitar-div .guitar{
+.music-div .music {
 	width: 70%;
 }
 
-
+.ponuka-link a{
+	width: 30%;
+	padding:2%;
+	margin: 0 auto;
+}
 
 	}

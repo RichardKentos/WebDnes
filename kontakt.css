@@ -339,6 +339,7 @@
 	display: block;
 	margin: auto;
 	margin-top: 10%;
+    word-break: keep-all;
 }
 
 .profile {
@@ -347,9 +348,8 @@
 	padding:0;
 }
 .profile-photo {
-	width: 50%;
-	text-align: center;
-	margin: 0;
+	width: 40%;
+	margin: 0 auto;
 	padding:0;
 
 }
