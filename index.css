@@ -144,7 +144,8 @@ box-shadow: inset 5px 5px 3px #026158,
 		background-position:bottom center;
 		background-repeat: no-repeat;
 		margin:0;
-		padding:0
+		padding:0;
+		border-bottom: 3px solid rgb(37, 37, 37);
 	}
 		
 	header h1 {

@@ -101,7 +101,7 @@
     .portfolio .site {
         width: 90%;
         padding: 0;
-        margin: 0;
+        margin: 2.5% 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
