@@ -99,7 +99,7 @@ box-shadow: inset 5px 5px 3px #026158,
 .covid {
 	width: 30%;
 }
-/* Obrázok RUSH */
+/*  Rush */
 .rush-div {
 	text-align: left;
 }
@@ -114,7 +114,7 @@ box-shadow: inset 5px 5px 3px #026158,
 	float: right;
 }
 
-/* Obrázok s gitarou */
+/* Music */
 .music-div {
 	margin-bottom: 10%;
 }
@@ -126,6 +126,9 @@ box-shadow: inset 5px 5px 3px #026158,
 .music-div .music {
 	width: 40%;
 	margin-top: 5vh;
+}
+.music-div .for-you {
+	font-weight: bolder;
 }
 
 
@@ -145,9 +148,9 @@ box-shadow: inset 5px 5px 3px #026158,
 		
 	header h1 {
 		font-weight: bolder;
-		font-size: 2.5rem;
+		font-size: 4.5rem;
 		text-align:right;
-		line-height: 3.5rem;
+		line-height: 5.5rem;
 		color: rgb(37, 37, 37);
 	}
 
@@ -206,8 +209,13 @@ box-shadow: inset 5px 5px 3px #026158,
 	margin: auto;
 }
 
+.music-div .for-you {
+	font-weight: bolder;
+}
+
+
 .ponuka-link a{
-	width: 80%;
+	width: 60%;
 	padding:2%;
 	margin: 0 auto;
 }
