@@ -99,11 +99,20 @@
     }
     
     .portfolio .site {
-        width: 80%;
+        width: 90%;
+        padding: 0;
+        margin: 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .portfolio .site h3 {
+        width: 80%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
     }
 
     .portfolio .site img {
