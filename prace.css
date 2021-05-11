@@ -108,7 +108,8 @@
     }
 
     .portfolio .site img {
-        width: auto;
+        max-width: 50%;
+        margin: auto;
     }
 
 }
