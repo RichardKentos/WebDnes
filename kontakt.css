@@ -334,27 +334,17 @@
 	display: none;
 }
 
-.vizitka {
-	width: 80%;
-	display: block;
-	margin: auto;
-	margin-top: 10%;
-    word-break: keep-all;
-}
-
 .profile {
-	width: 90%;
+	width: 100%;
 	margin-top: 10%;
-	padding:0;
+	padding:  0 2%;
+    word-break: keep-all;
 }
 .profile-photo {
 	width: 40%;
 	margin: 0 auto;
-	padding:0;
+	margin-top: 5%;
 
-}
-.profile p:first-of-type {
-	width: 90%;
 }
 
 .contact-map {
@@ -364,16 +354,11 @@
 
 .contact-map h2 {
 	text-align: left;
-	margin-bottom: 10%
+	margin-bottom: 10%;
+    font-size: 1.5rem;
+    margin: 0;
 }
 
-.contact-map p {
-	width: 100%;
-	text-align: left;
-	margin-bottom: 5%;
-	color: rgb(37, 37, 37);
-	font-size: 1.4rem;
-}
 
 .success-msg {
 	width: 90%;
