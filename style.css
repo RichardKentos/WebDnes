@@ -8,11 +8,19 @@
 	*/
 
 @font-face {
-	font-family: 'Metropolis Regular';
+	font-family: 'Gilroy-B';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Metropolis Regular'), url('Metropolis-Regular.woff') format('woff');
-	}
+	src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Gilroy-R';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
+}
+		
 
 
 
@@ -28,8 +36,7 @@ html {
 
 body {	
 	margin:0;
-	font-family: 'Poiret One', cursive;
-	font-family: "Oswald";
+	font: 20px "Gilroy-R" ;
 	color:white;
 	width: 100%;
 	background:#04a292;
@@ -178,7 +185,7 @@ menu ul {
 		}
 
 menu li {
-	font-size: 2vw;
+	font: 2vw "Gilroy-B";
 	text-align: right;
 	float: right;
 	list-style-type: none;
@@ -186,12 +193,12 @@ menu li {
 	width: 80%;
 	border-bottom: 3px solid white;
 	transition: padding-right 0.5s;
-	text-transform: uppercase;
 		}
 
 menu li:hover{
-	padding-right: 30%;
-	transition: 0.5s
+	padding-right: 10%;
+	transition: 0.4s;
+	color: rgb(37, 37, 37);
 		}
 
 menu {
@@ -234,7 +241,7 @@ footer {
 		/* box-shadow: 0px 0px 10px white; */
 		width: 100%;
 		background-color: rgb(37, 37, 37);
-		font-size: 1.3rem;
+		font-size: 1.4rem;
 		padding: 1%;
 		display: flex;
 		justify-content: space-around;

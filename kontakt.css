@@ -21,15 +21,13 @@
         float: left;
     }
     .contact-intro .contact-text h2 {
-        font-weight: bolder;
-        font-size: 3.5rem;
+        font: bolder 4rem "Gilroy-B";
         margin-bottom: 10%;
         color:white;
-        font-family: "Oswald";
     }
     .contact-intro .contact-text p {
         color: rgb(37, 37, 37);
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     
     .contact-intro .contact-img {
@@ -48,12 +46,10 @@
     }
     
     .contact-form h2 {
-        font-weight: bolder;
-        font-size: 3.5rem;
         margin-bottom: 10%;
         text-transform: uppercase;
         color:black;
-        font-family: "Oswald";
+        font: bolder 3.5rem "Gilroy-B";
     }
     
     .contact-form p {
@@ -92,13 +88,7 @@
         transition: .3s;
     }
     
-    
-    form input[type='checkbox'] {
-        appearance: checkbox;
-    }
-    
-    
-    
+
     form textarea {
         width: 100%;
         min-height: 20vh;
@@ -122,11 +112,10 @@
         background: #04a292;
         color: white;
         padding: 2%;
-        font-size: 1.2em;
         transition: 0.2s;
         text-transform: uppercase;
-        font-family: 'Oswald';
-        font-weight: bolder;
+        font: bolder 1.3rem "Gilroy-B";
+        width: 50%;
         display: block;
         margin: 0 auto;
         margin-top: 10%;
@@ -151,53 +140,7 @@
         margin-top: 50%;
     }
     
-    /* 
-     QUOTATION
-    */
-    .mySlides {
-        display: none;
-        overflow: visible;
-            }
-    
-    
-    .quote {
-        position: relative;
-        width: 100%;
-    
-            }
-    
-    .quote div {
-        max-width: 70%;
-        position: relative;
-        margin: 0 auto;
-        margin-top: 20%;
-    }
-    
-    .quote p {
-        color: white;
-        font-size: 2.7rem;
-    }
-    
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 2s;
-        animation-name: fade;
-        animation-duration: 2s;
-    }	
-    
-    @-webkit-keyframes fade {
-        from {opacity: .2} 
-        to {opacity: 1}
-    }
-    
-    @keyframes fade {
-        from {opacity: .2} 
-        to {opacity: 1}
-    }
-    
-    
-    
-    
+
     /* ==========================
              PROFILE SECTION
              ======================= */
@@ -213,15 +156,6 @@
         align-items: center;
     }
     
-    /* .profile > h2{
-        width: 100%;
-        color: #04a292;
-        font-size: 3.5rem;
-        font-weight: bolder;
-        text-align: center;
-        font-family: "Metropolis Regular";
-        text-transform: uppercase;
-    } */
     
     .profile-photo{
         width: 20%;
@@ -230,10 +164,9 @@
         float: left;
         margin: 2% 5% 0;
     }
+
     
     .profile > p:first-of-type {
-        font-family: "Poiret One";
-        font-weight: bolder;
         float: left;
         width: 50%;
         font-size: 1.4rem;
@@ -260,8 +193,7 @@
     }
     
     .contact-map h2 {
-        font-family: "Oswald";
-        font-size: 3.5rem;
+        font: 3rem "Gilroy-B";
         letter-spacing: 0.1rem;
         margin-left: 2rem;
         color:white;
